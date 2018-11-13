@@ -1,0 +1,97 @@
+body {
+	height:100%;
+	margin: auto;
+	background:linear-gradient(to bottom right, cornflowerblue, white);
+	/*uigradients borabora*/
+	/*rgba(92, 165, 84, 1)*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: roboto;
+
+}
+
+#container {
+	box-shadow:2px 2px 2px darkslategray;
+	background: rgba(255,245,170,1);
+	width:360px;
+	margin:6% auto;
+	/*border: 1px solid rgba(0,0,0,.5);*/
+}
+
+.fa-chevron-circle-down{
+	float:right;
+}
+
+.completed {
+	color: maroon;
+	text-decoration: line-through;
+}
+
+h1 {
+	background: linear-gradient(125deg, rgba(92, 84, 165, 1), steelblue);
+	color:whitesmoke;
+	padding: 10px 20px;
+	font-transform: uppercase;
+	font-size: 28px;
+	margin:0 0 0px 0;
+}
+
+input{
+	background: linen;
+	font-size:18px;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: rgba(0,0,0,0);
+}
+
+input:focus{
+	background: white;
+	border: 3px solid rgb(0, 150, 200);
+	outline: none;
+}
+
+ul	{
+	margin:0px 0px 0px 0px;
+	list-style: none;
+	padding: 0;
+}
+
+
+li{
+	cursor: crosshair;
+	background: rgba(255,245,70,.7);
+	height:40px;
+	line-height:40px;	
+}
+
+li:nth-child(2n){
+	background: rgba(255,245,170,.7);
+
+}
+
+span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 20px;
+	opacity: 0.1;
+	display: inline-block;
+	transition: .25s linear;
+  -webkit-transition: .25s linear;
+/* transition won't work with commas!   */
+/*   transform: translatex(65%); */
+}
+
+span:hover {
+  background: #e74c3c;
+	width: 40px;
+	opacity: 1;
+	cursor: pointer;
+/*   transform: translatex(0%); */
+}
+
+
+
